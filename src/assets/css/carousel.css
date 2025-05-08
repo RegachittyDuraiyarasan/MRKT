@@ -1,0 +1,162 @@
+.card-section{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/* General styling for cards */
+.card1 {
+    background-color: rgba(71, 70, 114, 0.2);
+    border: none;
+    border-radius: 8%;
+}
+.title {
+    background-color: #44086d;
+}
+.card-title {
+    font-size: 1.7rem; /* Increase this value to make the font larger */
+    font-weight: bold; /* Optional: make the text bold for more emphasis */
+    color: #44086d !important;
+}
+
+.btn-primary {
+    background-color: #44086d !important;
+    padding: 10px !important;
+    border-radius: 20px !important;
+    width: 60%;
+    border-color: white !important;
+}
+.card-body {
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+
+}
+.card {
+    border: none !important;
+    box-shadow: 0 4px 8px #8a41bb !important;
+}
+.card-text {
+    padding-left: 15px;
+}
+.case-btn {
+    margin-left: 20%;
+}
+
+/* Custom dropdown styling */
+.custom-dropdown {
+    position: relative;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.selected {
+    padding: 7px;
+    color: #595c5f;
+}
+.options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    z-index: 1000;
+}
+.types {
+    padding: 10px;
+    color: black;
+}
+.types:hover {
+    background-color: #8a41bb !important;
+    color: white;
+}
+.headings2 {
+    font-size: 2.5rem; /* Default large font size */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .card-title {
+        font-size: 1.5rem !important;
+    }
+    .card-text {
+        font-size: 1rem !important;
+    }
+    .case-btn {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .headings2 {
+        font-size: 2rem; /* Adjust font size for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .case-btn {
+        width: 100%;
+        margin-left: 0;
+    }
+    .card-title {
+        font-size: 1.3rem !important;
+    }
+    .card-text {
+        font-size: 0.9rem !important;
+    }
+
+    .headings2 {
+            font-size: 1.8rem; /* Smaller font size for smaller devices */
+        }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+    .card-body {
+        padding: 20px 15px;
+    }
+    .card-title {
+        font-size: 1.1rem !important;
+    }
+    .card-text {
+        font-size: 0.8rem !important;
+        padding-left: 10px;
+    }
+    .case-btn {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    .custom-dropdown .selected {
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+    .types {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+    .heading2 {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 425px) {
+
+    .heading2 {
+        font-size: 1.5rem !important;
+    }
+}
+@media (max-width: 375px) {
+
+    .heading2 {
+        font-size: 1.3rem !important;
+    }
+}
+@media (max-width: 320px) {
+
+    .heading2 {
+        font-size: 1.2rem !important;
+    }
+}
+

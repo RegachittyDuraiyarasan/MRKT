@@ -1,0 +1,15 @@
+.footer-text {
+    line-height: 50px;
+}
+
+.privacy {
+    display: inline;
+    margin-right: 5px; /* Adjust spacing as needed */
+}
+
+/* Center both columns on mobile */
+@media (max-width: 576px) {
+    .footer-text .col-sm-12 {
+        text-align: center !important;
+    }
+}
